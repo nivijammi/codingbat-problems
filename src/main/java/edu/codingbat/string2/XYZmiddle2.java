@@ -1,4 +1,4 @@
-package edu.codingbat;
+package edu.codingbat.string2;
 
 public class XYZmiddle2 {
     public boolean xyzMiddle(String str) {

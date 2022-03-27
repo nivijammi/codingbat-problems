@@ -1,4 +1,4 @@
-package edu.codingbat;
+package edu.codingbat.Array2;
 
 public class twotwo {
     /*Given an array of ints, return true if every 2 that appears in the array is next to another 2.

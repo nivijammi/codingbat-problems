@@ -1,6 +1,6 @@
-package edu.codingbat;
+package edu.codingbat.string2;
 
-public class endswith {
+public class EndsOther {
     public boolean endOther(String a, String b) {
         String A = a.toLowerCase();
         String B = b.toLowerCase();
@@ -33,7 +33,7 @@ public class endswith {
     }
 
     public static void main(String[] args) {
-        endswith other = new endswith();
+        EndsOther other = new EndsOther();
         other.endOther("Hiabc", "abc");
 
     }

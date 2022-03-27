@@ -1,6 +1,6 @@
-package edu.codingbat;
+package edu.codingbat.string2;
 
-public class BalanceXwithY {
+public class XYbalance {
     /*
       We'll say that a String is xy-balanced if for all the 'x' chars in the string, there exists a 'y' char somewhere later in the string. So "xxy" is balanced, but "xyx" is not. One 'y' can balance multiple 'x's. Return true if the given string is xy-balanced.
 
@@ -57,7 +57,7 @@ public class BalanceXwithY {
  */
 
         public static void main(String[] args) {
-        BalanceXwithY balance = new BalanceXwithY();
+        XYbalance balance = new XYbalance();
         balance.xyBalance("aaxbb");
     }
 }

@@ -1,6 +1,6 @@
-package edu.codingbat;
+package edu.codingbat.string2;
 
-public class wordEnds {
+public class NewWordEnds {
     /*
     * Given a string and a non-empty word string, return a string made of each char just before and just after every appearance of the word in the string.
     * Ignore cases where there is no char before or after the word,
@@ -41,7 +41,7 @@ wordEnds("XY1XY", "XY") → "11"
         return str;
     }
     public static void main(String[]args){
-        wordEnds object = new wordEnds();
+        NewWordEnds object = new NewWordEnds();
         object.wordEnds("XY1234XY1", "XY");
     }
 

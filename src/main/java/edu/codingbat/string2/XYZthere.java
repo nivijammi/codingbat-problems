@@ -1,4 +1,4 @@
-package edu.codingbat;
+package edu.codingbat.string2;
 
 /*
 Return true if the given string contains an appearance of "xyz" where the xyz is not directly preceeded by a period (.). So "xxyz" counts but "x.xyz" does not.
@@ -9,7 +9,7 @@ xyzThere("abc.xyz") → false
 xyzThere("xyz.abc") → true
  */
 
-public class startswith {
+public class XYZthere {
 
     public boolean xyzThere(String str) {
         //Condition 1: if xyz is found in the beginning
@@ -31,7 +31,7 @@ public class startswith {
 
 
     public static void main(String[] args) {
-        startswith sw = new startswith();
+        XYZthere sw = new XYZthere();
         sw.xyzThere("abc.xyzxyz");
     }
 

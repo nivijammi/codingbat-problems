@@ -1,6 +1,6 @@
-package edu.codingbat;
+package edu.codingbat.string2;
 
-public class FrontRepeat {
+public class RepeatFront {
     public String repeatFront(String str, int n) {
         String strToRepeat = "";
 
@@ -13,7 +13,7 @@ public class FrontRepeat {
         return strToRepeat;
     }
     public static void main(String[]args){
-        FrontRepeat repeat= new FrontRepeat();
+        RepeatFront repeat= new RepeatFront();
         repeat.repeatFront("Chocolate",4);
         repeat.repeatFront("mobile" , 3);
     }

@@ -1,6 +1,6 @@
-package edu.codingbat;
+package edu.codingbat.string2;
 
-public class plusOut {
+public class plusOut2 {
     /*
     Given a string and a non-empty word string, return a version of the original String where all chars have been replaced by pluses ("+"), except for appearances of the word string which are preserved unchanged.
 
@@ -38,7 +38,7 @@ public class plusOut {
 
 
     public static void main(String[]args){
-        plusOut replace = new plusOut();
+        plusOut2 replace = new plusOut2();
         replace.plusOutplus("12xy34","xy");
     }
 }

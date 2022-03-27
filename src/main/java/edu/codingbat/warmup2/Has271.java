@@ -1,6 +1,6 @@
-package edu.codingbat;
+package edu.codingbat.warmup2;
 
-public class has271array {
+public class Has271 {
     public boolean has271(int[] nums) {
         // Iterate < length-2, so can use i+1 and i+2 in the loop.
         // Return true immediately when seeing 271.
@@ -18,7 +18,7 @@ public class has271array {
         return false;
     }
     public static void main(String[]args){
-        has271array has271array = new has271array();
+        Has271 has271array = new Has271();
         int[]nums = {1,2,7,1};
 
 

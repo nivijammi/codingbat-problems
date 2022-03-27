@@ -1,6 +1,6 @@
-package edu.codingbat;
+package edu.codingbat.Array2;
 
-public class only1or4 {
+public class Only14 {
 /*
 * Given an array of ints, return true if every element is a 1 or a 4.
 
@@ -21,7 +21,7 @@ public class only1or4 {
         return true;
     }
     public static void main(String[] args){
-        only1or4 object = new only1or4();
+        Only14 object = new Only14();
         int[] nums = {1,4,2,4};
         object.only14(nums);
     }

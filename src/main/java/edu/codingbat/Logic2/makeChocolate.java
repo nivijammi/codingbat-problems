@@ -1,4 +1,4 @@
-package edu.codingbat;
+package edu.codingbat.Logic2;
 
 public class makeChocolate {
     /*

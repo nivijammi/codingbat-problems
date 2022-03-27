@@ -1,6 +1,6 @@
-package edu.codingbat;
+package edu.codingbat.AP1;
 
-public class matchUp {
+public class MatchUp2 {
 
     public int matchUp(int[] nums1, int[] nums2) {
         int count = 0;
@@ -15,7 +15,7 @@ public class matchUp {
     }
 
     public static void main(String[] args){
-        matchUp object = new matchUp();
+        MatchUp2 object = new MatchUp2();
         int[] nums1 = {1,2,3};
         int[] nums2 = {2,3,5};
         object.matchUp(nums1,nums2);

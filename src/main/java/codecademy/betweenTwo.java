@@ -1,4 +1,4 @@
-package edu.codingbat;
+package codecademy;
 
 public class betweenTwo {
     public String getSandwich(String str) {

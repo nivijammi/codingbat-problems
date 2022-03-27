@@ -1,4 +1,4 @@
-package edu.codingbat;
+package codecademy;
 
 public class BigramsMatch {
     public String bigramMatchMethod(String str){

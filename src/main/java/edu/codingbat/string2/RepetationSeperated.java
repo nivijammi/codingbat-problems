@@ -1,5 +1,5 @@
 
-package edu.codingbat;
+package edu.codingbat.string2;
 
 public class RepetationSeperated {
     /*

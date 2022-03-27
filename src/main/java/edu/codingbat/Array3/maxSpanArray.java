@@ -1,4 +1,4 @@
-package edu.codingbat;
+package edu.codingbat.Array3;
 
 public class maxSpanArray {
     /*

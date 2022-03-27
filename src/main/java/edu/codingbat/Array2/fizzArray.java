@@ -1,4 +1,4 @@
-package edu.codingbat;
+package edu.codingbat.Array2;
 
 public class fizzArray {
     /*

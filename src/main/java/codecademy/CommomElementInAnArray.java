@@ -1,4 +1,4 @@
-package edu.codingbat;
+package codecademy;
 /*
 find the index and the element of common element in two arrays
 */
