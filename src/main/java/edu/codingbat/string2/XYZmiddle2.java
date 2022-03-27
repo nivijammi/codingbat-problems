@@ -1,6 +1,6 @@
 package edu.codingbat;
 
-public class middleWord2 {
+public class XYZmiddle2 {
     public boolean xyzMiddle(String str) {
         if(str.length()<3){
             return false;
@@ -18,7 +18,7 @@ public class middleWord2 {
     }
 
     public static void main(String[]args){
-        middleWord2 mW2 = new middleWord2();
+        XYZmiddle2 mW2 = new XYZmiddle2();
 
 
     }
