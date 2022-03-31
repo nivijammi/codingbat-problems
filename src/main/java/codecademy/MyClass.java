@@ -1,4 +1,4 @@
-package edu.codingbat.warmup2;
+package codecademy;
 
 public class MyClass {
     public int a;
