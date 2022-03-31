@@ -1,4 +1,4 @@
-package edu.codingbat.warmup2;
+package codecademy;
 
 public class MyString2 {
     public static void main(String[] args){
