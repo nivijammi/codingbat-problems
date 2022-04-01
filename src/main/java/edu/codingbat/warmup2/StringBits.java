@@ -1,39 +1,25 @@
 package edu.codingbat.warmup2;
 
+/**
+ * Given a string, return a new string made of every other char starting with the first, so "Hello" yields "Hlo".
+
+ * stringBits("Hello") → "Hlo"
+ * stringBits("Hi") → "H"
+ * stringBits("Heeololeo") → "Hello"
+ */
+
 public class StringBits {
     public String stringBits(String str){
-        String temp="";
-        for (int i = 0;i<str.length(); i=i+2){
-            temp = temp + str.substring(i,i+1);
-
+        String newString = "";
+        for(int i=0; i<str.length();i+=2){
+            newString = newString + str.charAt(i);
         }
-        return temp;
+        System.out.println(newString);
+        return newString;
     }
-    /*
-        stringBits("Hello") → "Hlo"
-        stringBits("Hi") → "H"
-        stringBits("Heeololeo") → "Hello"
-    */
-    public void testcountXX(){
-        String result1 = stringBits("Hello");
-        System.out.println("result1 : "+result1 );
-
-        String result2 = stringBits("Hi");
-        System.out.println("result2 : "+result2 );
-
-        String result3 = stringBits("Heeololeo");
-        System.out.println("result3 : "+result3 );
-
-
-    }
-
-
-    public static void main(String args[]){
-        StringBits cx = new StringBits();
-        cx.testcountXX();
-    }
-
-
 }
+
+
+
 
 

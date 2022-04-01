@@ -1,37 +1,22 @@
 package edu.codingbat.warmup2;
 
+/**
+ * Given a non-empty string like "Code" return a string like "CCoCodCode".
+ * * stringSplosion("Code") → "CCoCodCode"
+ * stringSplosion("abc") → "aababc"
+ * stringSplosion("ab") → "aab"
+ */
+
 public class StringSplosion {
-    public String stringSplosion(String str){
-        String temp= "";
-        for (int i = 0; i<str.length(); i++){
-            temp = temp + str.substring(0,i+1);
+    public String stringSplosion(String str) {
+        String temp = "";
+        String newString = "";
+        for (int i = 0; i < str.length(); i++) {
+            temp = temp + str.charAt(i);
+            newString = newString + temp ;
 
         }
-
-        return temp;
+        System.out.println(newString);
+        return newString;
     }
-    /*
-    stringSplosion("Code") → "CCoCodCode"
-    stringSplosion("abc") → "aababc"
-    stringSplosion("ab") → "aab"
-     */
-
-    public void teststringSplosion(){
-        String result1 = stringSplosion("Code");
-        System.out.println("result1 : "+result1 );
-
-        String result2 = stringSplosion("abc");
-        System.out.println("result2 : "+result2 );
-
-        String result3 = stringSplosion("ab");
-        System.out.println("result3 : "+result3 );
-
-    }
-    public static void main(String args[]){
-        StringSplosion ss = new StringSplosion();
-        ss.teststringSplosion();
-    }
-
-
-
 }

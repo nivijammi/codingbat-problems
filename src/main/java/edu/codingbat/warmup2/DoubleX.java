@@ -1,43 +1,33 @@
 package edu.codingbat.warmup2;
 
+/**
+ * Given a string, return true if the first instance of "x" in the string
+ * is immediately followed by another "x".
+ *
+ * doubleX("axxbb") → true
+ * doubleX("axaxax") → false
+ * doubleX("xxxxx") → true
+ */
 public class DoubleX {
 
-    boolean doubleX(String str) {
-        for (int i = 0;i<str.length()-1; i++){
-            if(str.charAt(i)=='x' )
-                if (str.charAt(i+1)=='x'){
-                return true;
-
-
-            }else {
-                return false;
+    public boolean doubleX(String str) {
+        for (int i = 0; i < str.length() - 1; i++) {
+            if (str.charAt(i) == 'x'){
+                if(str.charAt(i + 1) == 'x') {
+                    System.out.println("true");
+                    return true;
+                } else {
+                    System.out.println("false");
+                    return false;
+                }
             }
 
         }
+        System.out.println("false");
         return false;
-    }
-    /*
-        doubleX("axxbb") → true
-        doubleX("axaxax") → false
-        doubleX("xaxx") → false
-    */
-    public void testcountXX(){
-        boolean result1 = doubleX("axxbb");
-        System.out.println("result1 : "+result1 );
-
-        boolean result2 = doubleX("axaxax");
-        System.out.println("result2 : "+result2 );
-
-        boolean result3 = doubleX("xaxx");
-        System.out.println("result3 : "+result3 );
-
-
-    }
-
-
-    public static void main(String args[]){
-        DoubleX cx = new DoubleX();
-        cx.testcountXX();
     }
 
 }
+
+
+
