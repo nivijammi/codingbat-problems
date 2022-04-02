@@ -31,8 +31,5 @@ public class Last2 {
         return count;
     }
 
-    public static void main(String[] args) {
-        Last2 object = new Last2();
-        object.last2("hixxhi");
-    }
+
 }
