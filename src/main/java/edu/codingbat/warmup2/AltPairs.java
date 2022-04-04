@@ -1,5 +1,12 @@
 package edu.codingbat.warmup2;
 
+/**
+ * Given a string, return a string made of the chars at indexes 0,1, 4,5, 8,9 ... so "kittens" yields "kien".
+ *
+ * altPairs("kitten") → "kien"
+ * altPairs("Chocolate") → "Chole"
+ * altPairs("CodingHorror") → "Congrr"
+ */
 public class AltPairs {
     public String altPairs(String str) {
         String result = "";
@@ -21,12 +28,5 @@ public class AltPairs {
         return result;
     }
 
-    public static void main(String[]args){
-        AltPairs object= new AltPairs();
-        object.altPairs("kitten");
-        object.altPairs("chocolate");
-        object.altPairs("codingHorror");
-
-    }
 
 }
