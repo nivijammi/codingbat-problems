@@ -7,7 +7,7 @@ public class HappyBirthday {
     private final int age;
 
     public HappyBirthday() {
-        age = 25;
+        this.age = 25;
     }
 
     public static void main(String args[]) {
