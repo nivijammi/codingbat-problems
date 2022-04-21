@@ -11,7 +11,14 @@ package edu.codingbat.array1;
 
 public class Start1 {
     public int start1(int[] a, int[] b) {
-
-        return 0;
+        int count =0;
+        if(a.length>0 && a[0]==1) {
+            count++;
+        }
+        if(b.length>0 && b[0]==1){
+            count++;
+        }
+        System.out.println(count);
+        return count;
     }
 }
